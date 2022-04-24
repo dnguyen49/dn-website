@@ -28,7 +28,9 @@ h2{
 }
 
 footer {
-  font-size: 40px
+    background-color: darkgray;
+    margin: 200px 0 0 0;
+    padding: 20px 0;
 }
 
 a {
