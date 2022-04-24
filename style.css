@@ -1,0 +1,77 @@
+.wow {
+  width: 100px;
+}
+body {
+  margin: 0;
+  background-color: #000000;
+}
+header h1 {
+	font-size: 40px;
+	padding-top: 50px;
+	margin: 0 0 0 20px;
+  text-align: center;
+}
+
+header h1 a, h2, p, ul, ol, footer {
+	text-decoration: none;
+	color: #ffffff;
+
+}
+
+header h1 a:hover {
+	color: #faf4f4;
+}
+
+h2{
+  font-size: 20px;
+  text-align: center;
+}
+
+footer {
+  font-size: 10px
+}
+
+a {
+  color: #deb5b5
+}
+
+header,
+nav,
+main,
+footer, p {
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.wrapper {
+  width: 300px;
+  margin: auto;
+}
+
+img {
+	width: 100%
+}
+
+/* ----- =header & nav ----- */
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+}
+
+nav a {
+  text-decoration: none;
+  margin-right: 40px;
+  font-size: 18px;
+  color: #abb5bf;
+  font-family: Quattrocento, sans-serif;
+}
+
+nav a:hover {
+  color: #abb5bf;
+}
+
+nav a:last-of-type {
+  margin-right: 20px;
+}
